@@ -8,7 +8,7 @@
 
     #login {
         width: 80vw;
-        height: 70vh;
+        height: 60vh;
     }
     
     section#login > div#imagem {
@@ -23,7 +23,7 @@
     }
 }
     
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { /* para telas grandes */
 
     body {
         background-image: linear-gradient( to top, black, white);
@@ -31,7 +31,7 @@
     
    section#login {
         width: 950px;
-        height: 490px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -50,7 +50,16 @@
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    form > div.campo {
+        height: 41px;
+    }
+
+    div.campo > input {
+        transform: translateY(-12px);
     }
 }
     
